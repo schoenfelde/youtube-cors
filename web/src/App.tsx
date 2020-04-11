@@ -100,12 +100,6 @@ function App() {
               color="primary">
               Fire GET API
               </APIButton>
-            <APIButton
-              variant="contained"
-              onClick={() => handleAPI("post")}
-              color="secondary">
-              Fire Post API
-              </APIButton>
           </APIRow>
           <ResponseDiv style={{ color: response.type === "success" ? "green" : "red" }}>{response.message}</ResponseDiv>
         </Form>
