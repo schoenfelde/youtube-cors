@@ -6,6 +6,7 @@ phases:
       nodejs: 13
   pre_build:
     commands:
+      - cd web
       - echo Installing source NPM dependencies...
       - npm install -g yarn
       - yarn
